@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+var gitDefinition = 'Git is a software tool that is used for tracking changes in files, adding and removing files, and overall code management '
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+var gitHubDefinition = 'GitHub is a Git repository site that developers can use to store, manage and share their personal projects, and they can also contribute to public projects.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+var gitInitDefinition = 'Git Init can be used to to create a new repository, and can be used to add an existing project to an already created repository'
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+var gitCloneDefinition = 'Git Clone makes a clone of an existing rep in a different location'
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+var gitStatusDefinition = 'Git Status is a command that inspects the repository'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,9 @@
 
 //CODE HERE
 
+var gitAddDefinition = 'Git Add adds all updates to the repository'
+var gitAddCode = 'git add .' + 'git add README.md'
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +78,8 @@
 
 //CODE HERE
 
+var gitCommitDefinition = 'Git Commit adds a quick summmary of your repo at the time you pushed it'
+var gitCommitCode = 'git commit -m'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +88,5 @@
 */
 
 //CODE HERE
+
+var gitPushDefinition = 'Git Push is used to upload content to a remote repository'

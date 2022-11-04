@@ -27,15 +27,13 @@
     in cents. 
 */
 
-const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
-const galaAcres = [5, 2, 4, 3, 6, 2, 4]
-const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
+const fujiAcres = [2, 3, 3, 2, 2, 2, 1];
+const galaAcres = [5, 2, 4, 3, 6, 2, 4];
+const pinkAcres = [1, 5, 4, 2, 1, 5, 4];
 
-const fujiPrice = .89 
-const galaPrice = .64
-const pinkPrice = .55
-
-
+const fujiPrice = 0.89;
+const galaPrice = 0.64;
+const pinkPrice = 0.55;
 
 // PROBLEM 1
 
@@ -51,8 +49,12 @@ const pinkPrice = .55
 
 // CODE HERE
 
+var totalAcres = [fujiAcres + galaAcres + galaAcres]
+for (let i = 0; i <=totalAcres.length; i++) {
+    totalAcres[i] += 1
+}
 
-
+console.log(totalAcres)
 
 
 // PROBLEM 2
@@ -69,9 +71,12 @@ const pinkPrice = .55
 
 // CODE HERE
 
+var averageDailyAcres = [fujiAcres + galaAcres + galaAcres]
+for (let i = 0; i <= averageDailyAcres.length; i++) {
+    totalAcres[i] += 1
+}
 
-
-
+console.log(averageDailyAcres)
 
 // PROBLEM 3
 
@@ -102,12 +107,15 @@ const pinkPrice = .55
 
 */
 
-let acresLeft = 174 
-let days = 0
+let acresLeft = 174;
+let days = 0;
 
 // CODE HERE
 
-
+while (acresLeft > 0) {
+    console.log(days)
+    acresLeft += 1
+}
 
 // PROBLEM 4
 
@@ -135,14 +143,13 @@ let days = 0
 
 // CODE HERE
 
+arr fujiTons
+arr galaTons
+arr pinkTons
+
 // let fujiTons =
 // let galaTons =
 // let pinkTons =
-
-
-
-
-
 
 // PROBLEM 5
 
@@ -160,16 +167,15 @@ let days = 0
     Hint: there are 2000 pounds in a ton.
 */
 
-// CODE HERE 
+// CODE HERE
+
+arr fujiPounds
+arr galaPouds
+arr pinkPounds
 
 // let fujiPounds =
 // let galaPounds =
 // let pinkPounds =
-
-
-
-
-
 
 // PROBLEM 6
 
@@ -189,14 +195,13 @@ let days = 0
 
 // CODE HERE
 
+arr fujiPrice
+arr galaPrice
+arr pinkPrice
+
 // let fujiProfit =
 // let galaProfit =
 // let pinkProfit =
-
-
-
-
-
 
 // PROBLEM 7
 
@@ -209,3 +214,5 @@ let days = 0
 */
 
 // CODE HERE
+
+var totalProfit = 
