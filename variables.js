@@ -1,27 +1,24 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+//CODE HERE
 
 var myName = "Grace";
-console.log(myName)
+
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
-var faveNum = "8";
-console.log(faveNum)
+var faveNum = 8;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
 
-var lovesCode = "true";
-lovesCode = true;
-console.log(lovesCode)
+var lovesCode = true;
 
 
 //////////////////PROBLEM 4////////////////////
@@ -34,9 +31,9 @@ console.log(lovesCode)
 //CODE HERE
 
 if (faveNum === 13) {
-  console.log('Lucky number 13!')
+  console.log("Lucky number 13!");
 } else {
-  console.log('Not lucky 13.')
+  console.log("Not lucky 13.");
 }
 
 //////////////////PROBLEM 5////////////////////
@@ -46,6 +43,6 @@ if (faveNum === 13) {
 
 //CODE HERE
 
-for (i = 1; i <= 10; i++) {
-  console.log(myName)
+for (i = 0; i < 5; i++) {
+  console.log(faveNum);
 }
